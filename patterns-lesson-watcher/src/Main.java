@@ -25,7 +25,7 @@ public class Main {
 
         subject.deleteObserver(observers[1]);
 
-        subject.notify("Some new message");
+        subject.notify("Some new message verse 1");
 
         for (JavaObserver observer : observers) {
             System.out.println("Observer message: " + observer.getMessage());
