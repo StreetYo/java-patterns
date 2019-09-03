@@ -9,5 +9,6 @@ public class Main {
         coffee = new Whip(coffee);
 
         System.out.println(coffee.getDescription());
+        System.out.println("Total: " + coffee.cost());
     }
 } 
