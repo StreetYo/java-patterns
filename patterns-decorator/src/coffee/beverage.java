@@ -5,11 +5,11 @@ public abstract class Beverage {
     private String description;
 
     public String getDescription() {
-        return description;
+        return this.description;
     }
 
     public void setDescription(String newDescription) {
-        description = newDescription;
+        this.description = newDescription;
     }
 
     public abstract float cost();

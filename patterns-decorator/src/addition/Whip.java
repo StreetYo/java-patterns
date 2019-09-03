@@ -3,7 +3,6 @@ package addition;
 import coffee.Beverage;
 
 public class Whip extends BeverageDecorator {
-    @Override
     public float cost() {
         return 2f + this.getBeverage().cost();
     }
