@@ -18,4 +18,9 @@ public abstract class BeverageDecorator extends Beverage {
     public void setBeverage(Beverage beverage) {
         this.beverage = beverage;
     }
+
+    @Override
+    public String getDescription() {
+        return beverage.getDescription()+'\n'+super.getDescription();
+    }
 }
